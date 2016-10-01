@@ -7,10 +7,10 @@ url: "https://codingmoding.github.io"
 
 
 # Secondary Parameters
-baseurl: "/"
+baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /coding/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  nuruddinjr
