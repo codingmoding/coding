@@ -1,12 +1,11 @@
 # Members
 
-- name: Ahmet Cecen
-  role: Data Scientist / Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/7231251?v=3&s=460
-  github: ahmetcecen
-  gplus: https://plus.google.com/+AhmetCecen-GPlus
+- name: Nuruddin Iminokhunov
+  role: 
+  img: https://avatars3.githubusercontent.com/u/9083431?v=3&s=466
+  github: nuruddinjr
   bio: Ahmet Cecen is currently pursuing a PhD in Computational Science and Engineering at Georgia Institute of Technology.  He earned a bachelor’s degree in Mechanical Engineering at Drexel University. Ahmet has been doing research in the fields of computational materials science and materials informatics for the past 6 years, throughout his undergraduate and graduate studies. His current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. 
-  url: http://ahmetcecen.github.io/
+  url: http://facebook.com/nuruddin.iminohunov/
   visible: true
    
 - name: David Brough
