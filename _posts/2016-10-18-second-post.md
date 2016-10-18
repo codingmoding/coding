@@ -14,6 +14,7 @@ published: true
 title: Second Post
 ---
 
+
 # Test post 2
 
 Korochi bittta post buyam
@@ -23,8 +24,3 @@ Korochi bittta post buyam
  	print(bar)
 {% endhighlight %}
 {{ page.horizontal }}
-
-
-
-
- 
