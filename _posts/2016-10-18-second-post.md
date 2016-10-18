@@ -14,14 +14,10 @@ published: true
 title: Second Post
 ---
 
-
-
-# Test post 2
-
-Korochi bittta post buyam
-> We loved with a love that was more than loveasdasd
-{% highlight python %}
- def foo:
- 	print(bar)
-{% endhighlight %}
 {{ page.horizontal }}
+asdjkahdajkdhad
+asjdahjdahdkjad
+a
+dkalsjdlasd{{ page.vertical }}
+
+asdlkjadla  asjdasd
