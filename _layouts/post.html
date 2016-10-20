@@ -12,7 +12,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>	
+                    <span class="meta">{{ page.author }} tomonidan {{ page.date | date: "%B %-d, %Y" }} da post qilingan</span>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ layout: default
 	<div class="float-left">
 	<div class="recentpost" style="padding: 10px">
 	
-	<h4> Recently by the same author: </h4> 
+	<h4> Muallifdan boshqa postlar: </h4>
 	
 	<hr class="style-one">
 	
@@ -40,10 +40,10 @@ layout: default
 		<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 	{% endif %}
 	
-	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">{{ post.author }} tomonidan , {{ post.date | date: "%B %-d, %Y" }} da post qilingan</p>
 	
 	<div class="notepad-index-post-tags" style="">
-	{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+	{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title=" {{ tag | capitalize }} teg bilan boshqa postlar">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 	</div> 
 	
 			{% for member in site.data.members %}
@@ -95,7 +95,7 @@ layout: default
 		<div class="relevantpost" style="padding: 10px">
 		
 		
-		<h4> You may find interesting: </h4> 
+		<h4>Postga o'xshash postlar: </h4>
 		
 		<hr class="style-one">
 		
@@ -105,10 +105,10 @@ layout: default
 			<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 		{% endif %}
 		
-		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">{{ post.author }} tomonidan, {{ post.date | date: "%B %-d, %Y" }} da post qilingan</p>
 		
 		<div class="notepad-index-post-tags" style="">
-		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="{{ tag | capitalize }} tegi bilan yozilgan boshqa postlar">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 		</div> 
 		
 		{% assign relevantpostcount = 1 %}
@@ -127,10 +127,10 @@ layout: default
 			<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 		{% endif %}
 		
-		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">{{ post.author }} tomonidan,  {{ post.date | date: "%B %-d, %Y" }} da post qilingan</p>
 		
 		<div class="notepad-index-post-tags" style="">
-		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="{{ tag | capitalize }} tegi bilan yozilgan boshqa postlar"">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 		</div> 
 		
 		{% assign relevantpostcount = 2 %}
@@ -162,12 +162,12 @@ layout: default
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Oldingi Post</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Keyingi Post &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
