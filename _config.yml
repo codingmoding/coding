@@ -74,12 +74,6 @@ prose:
               value: "post"
             - name: "Slide"
               value: "slide"
-            - name: "Projector"
-              value: "projector"
-            - name: "Notebook"
-              value: "notebook"
-            - name: "Ply Surface"
-              value: "plysurface"
       - name: "title"
         field:
           element: "text"
