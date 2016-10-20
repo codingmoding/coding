@@ -6,13 +6,13 @@ subtitle: Hello
 layout: post
 author: Nuruddin
 tags: creat asjdad
-category: good
+category: ""
 theme: blood
-trans: cube
+trans: concave
 visualworkflow: true
 published: true
 title: Second Post
 ---
 
-> We loved with a love that was more than love
-
+{{ page.horizontal }}> We loved with a love that was more than love
+asdasdas
