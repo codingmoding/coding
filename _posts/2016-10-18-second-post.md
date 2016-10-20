@@ -7,17 +7,12 @@ layout: post
 author: Nuruddin
 tags: creat asjdad
 category: good
-theme: beige
+theme: blood
 trans: cube
 visualworkflow: true
 published: true
 title: Second Post
 ---
 
-{{ page.horizontal }}
-asdjkahdajkdhad
-asjdahjdahdkjad
-a
-dkalsjdlasd{{ page.vertical }}
+> We loved with a love that was more than love
 
-asdlkjadla  asjdasd
