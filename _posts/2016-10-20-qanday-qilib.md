@@ -10,9 +10,10 @@ category: ""
 theme: blood
 trans: page
 visualworkflow: true
-published: false
+published: true
 title: Qanday qilib
 ---
+
 
 ## Qanday qilib	
 
@@ -41,4 +42,3 @@ def foo():
 _test_
 
 <u>test</u>
-
